@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+  <title>Non-sense Quote Generator</title>
+</head>
+    <body>
+      <center><div class="container">
+        <div id="content">
+          <p>Let's have some fun! Let's make a non-sense story together, shall we?</p>
+        </div>
+        <ul>		  
+          <p>This game begins with one question: How many quotes?</p>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+            <button id="one" onclick="setNumQuotesTo1 ()">1</button>
+            <button id="two" onclick="setNumQuotesTo2()">2</button>
+            <button id="three" onclick="setNumQuotesTo3()">3</button>
+            <button id="four" onclick="setNumQuotesTo4()">4</button>
+            <button id="five" onclick="setNumQuotesTo5()">5</button>
+            <br/>
+
+          <p id="quote1"></p>
+          <p id="quote2"></p>
+          <p id="quote3"></p>
+          <p id="quote4"></p>
+          <p id="quote5"></p>
+
+            <br/>
+            <br/>
+		  
+            <p>and now you can...</p>
+            <button id="gen" onclick="genQuote()">Start simple</button>
+			<!-- Don't worry about fixing this bit yet -->
+          <p id="options">Or you can go one step further!</p>
+
+          <p>How? Well, how about trying again and adding a When?</p>
+          <button id="option1" onclick="genOne()">Generate Time Machine</button>
+
+          <p>And Where?</p>
+          <button id="option2" onclick="genTwo()">Generate World Map</button>
+
+          <p>Or, we can even do it all in one!</p>
+          <button id="all" onclick="genAll()">Do it all!</button>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
+          <p>...Did you just say you want normal quotes? BORING!! But, your wishes are my command... <br/>Let's normalize things a little! </p>
+        
+          <br/>
+          <p>Do you prefer a quote by...</p>
+          <button id="john" onclick="genJohn()">John Green?</button>
+          <br/>
+          <br/>
+          <button id="frida" onclick="genFrida()">or by Frida Kahlo?</button>
+
+            <p id="normal"></p>
+            <br/>
+            <button id="close" onclick="closeWindow()">Ready to exit this game?</button>
+        </ul>
+      </div></center>
+    
+
+      <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>

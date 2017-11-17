@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-color: white;
+  background-image: url(bg.jpg);
+  background-position: top;
+  z-index: -2;
+  color: black;
+  font-family: "Permanent Marker", Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+}
+
+
+#quote {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+    padding: 10px;
+    position: relative;
+    width: 800px;
+    background-color: white;
+    -webkit-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    box-shadow: 0 1px 2px #000;
+    -webkit-transform: rotate(-.5deg);
+    -moz-transform: rotate(-.5deg);
+    -o-transform: rotate(-.5deg);
+}
+
+#gen, #option1, #option2, #all, #john, #frida, #close {
+  color: white;
+  font-family: Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  padding: 5px;
+  background-color: black;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+#one, #two, #three, #four, #five {
+  color: white;
+  font-size: 25px;
+  font-family: Georgia, Garamond, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  padding: 5px;
+  background-color: black;
+  border-color: transparent;
+  border-radius: 10px;
+}
